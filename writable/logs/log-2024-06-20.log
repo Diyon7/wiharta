@@ -1,0 +1,1048 @@
+ERROR - 2024-06-20 09:52:36 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-20 09:53:36 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-20 09:53:41 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-20 11:13:33 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:13:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:13:36 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:13:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:13:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:16:57 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:16:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:18:53 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:18:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:18:54 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:18:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:18:56 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:18:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:18:56 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:18:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:18:58 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:18:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 11:19:57 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 11:19:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:18:23 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-20 14:18:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacukai_mutasi_hdr`.`kode`, `beacukai_mutasi_hdr`.`kode2`, CONCAT(beacukai_mutasi_hdr.`analyst_asal`, \'/\', beacukai_mutasi_hdr.`analyst_tujuan`) AS kodemutasi, `item_ccn`.`hpl` AS `hpl`, `beacukai_mutasi_hdr`.`tgl`, `beacukai_mutasi_dtl`.`sec`, `no_aju`, `beacukai_mutasi_dtl`.`item`, `beacukai_mutasi_dtl`.`code`, `asal`, `tb_kode_fg`.`nama_item`, `item_ccn`.`item_description`, IF(tb_kode_fg.`nama_item`=\'PPMF\', `beacukai_mutasi_dtl`.`kg`, beacukai_mutasi_dtl.`qty`) AS alltotalqty, `beacukai_mutasi_dtl`.`kg` AS `kgm`, `beacukai_mutasi_dtl`.`iduser` AS `user`, `beacukai_mutasi_dtl`.`updated_at`
+FROM `beacukai_mutasi_dtl`
+JOIN `beacukai_mutasi_hdr` ON `beacukai_mutasi_dtl`.`kode`=`beacukai_mutasi_hdr`.`kode`
+JOIN `item_ccn` ON `item_ccn`.`item`=`beacukai_mutasi_dtl`.`item`
+LEFT JOIN (select analyst,analyst_name as asal from beacukai_analyst) as asl ON `asl`.`analyst`=`beacukai_mutasi_hdr`.`lokasi_asal`
+LEFT JOIN (select analyst,analyst_name as tujuan from beacukai_analyst) as tjn ON `tjn`.`analyst`=`beacukai_mutasi_hdr`.`lokasi_tujuan`
+LEFT JOIN `tb_kode_fg` ON tb_kode_fg.`kode_bb`=item_ccn.`hpl`
+WHERE `beacukai_mutasi_hdr`.`analyst_asal` LIKE :beacukai_mutasi_hdr.`analyst_asal`: ESCAPE \'!\'
+AND  `beacukai_mutasi_hdr`.`analyst_tujuan` LIKE :beacukai_mutasi_hdr.`analyst_tujuan`: ESCAPE \'!\'
+AND  `beacukai_mutasi_dtl`.`item` LIKE :beacukai_mutasi_dtl.item: ESCAPE \'!\'
+AND   (
+`beacukai_mutasi_hdr`.`kode2` LIKE :beacukai_mutasi_hdr.kode2: ESCAPE \'!\'
+OR  `beacukai_mutasi_hdr`.`tgl` LIKE :beacukai_mutasi_hdr.`tgl`: ESCAPE \'!\'
+OR  `no_aju` LIKE :no_aju: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`item` LIKE :beacukai_mutasi_dtl.item.1: ESCAPE \'!\'
+OR  `asl`.`asal` LIKE :asl.asal: ESCAPE \'!\'
+OR  `tb_kode_fg`.`nama_item` LIKE :tb_kode_fg.`nama_item`: ESCAPE \'!\'
+OR  `item_ccn`.`item_description` LIKE :item_ccn.`item_description`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`qty` LIKE :beacukai_mutasi_dtl.`qty`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`kg` LIKE :beacukai_mutasi_dtl.`kg`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`iduser` LIKE :beacukai_mutasi_dtl.`iduser`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`updated_at` LIKE :beacukai_mutasi_dtl.`updated_at`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`updated_at` LIKE :beacukai_mutasi_dtl.`updated_at`.1: ESCAPE \'!\'
+ )
+ORDER BY `beacukai_mutasi_dtl`.`updated_at` DESC', [...], false)
+ 3 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:18:28 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-20 14:18:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacukai_mutasi_hdr`.`kode`, `beacukai_mutasi_hdr`.`kode2`, CONCAT(beacukai_mutasi_hdr.`analyst_asal`, \'/\', beacukai_mutasi_hdr.`analyst_tujuan`) AS kodemutasi, `item_ccn`.`hpl` AS `hpl`, `beacukai_mutasi_hdr`.`tgl`, `beacukai_mutasi_dtl`.`sec`, `no_aju`, `beacukai_mutasi_dtl`.`item`, `beacukai_mutasi_dtl`.`code`, `asal`, `tb_kode_fg`.`nama_item`, `item_ccn`.`item_description`, IF(tb_kode_fg.`nama_item`=\'PPMF\', `beacukai_mutasi_dtl`.`kg`, beacukai_mutasi_dtl.`qty`) AS alltotalqty, `beacukai_mutasi_dtl`.`kg` AS `kgm`, `beacukai_mutasi_dtl`.`iduser` AS `user`, `beacukai_mutasi_dtl`.`updated_at`
+FROM `beacukai_mutasi_dtl`
+JOIN `beacukai_mutasi_hdr` ON `beacukai_mutasi_dtl`.`kode`=`beacukai_mutasi_hdr`.`kode`
+JOIN `item_ccn` ON `item_ccn`.`item`=`beacukai_mutasi_dtl`.`item`
+LEFT JOIN (select analyst,analyst_name as asal from beacukai_analyst) as asl ON `asl`.`analyst`=`beacukai_mutasi_hdr`.`lokasi_asal`
+LEFT JOIN (select analyst,analyst_name as tujuan from beacukai_analyst) as tjn ON `tjn`.`analyst`=`beacukai_mutasi_hdr`.`lokasi_tujuan`
+LEFT JOIN `tb_kode_fg` ON tb_kode_fg.`kode_bb`=item_ccn.`hpl`
+WHERE `beacukai_mutasi_hdr`.`analyst_asal` LIKE :beacukai_mutasi_hdr.`analyst_asal`: ESCAPE \'!\'
+AND  `beacukai_mutasi_hdr`.`analyst_tujuan` LIKE :beacukai_mutasi_hdr.`analyst_tujuan`: ESCAPE \'!\'
+AND  `beacukai_mutasi_dtl`.`item` LIKE :beacukai_mutasi_dtl.item: ESCAPE \'!\'
+AND   (
+`beacukai_mutasi_hdr`.`kode2` LIKE :beacukai_mutasi_hdr.kode2: ESCAPE \'!\'
+OR  `beacukai_mutasi_hdr`.`tgl` LIKE :beacukai_mutasi_hdr.`tgl`: ESCAPE \'!\'
+OR  `no_aju` LIKE :no_aju: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`item` LIKE :beacukai_mutasi_dtl.item.1: ESCAPE \'!\'
+OR  `asl`.`asal` LIKE :asl.asal: ESCAPE \'!\'
+OR  `tb_kode_fg`.`nama_item` LIKE :tb_kode_fg.`nama_item`: ESCAPE \'!\'
+OR  `item_ccn`.`item_description` LIKE :item_ccn.`item_description`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`qty` LIKE :beacukai_mutasi_dtl.`qty`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`kg` LIKE :beacukai_mutasi_dtl.`kg`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`iduser` LIKE :beacukai_mutasi_dtl.`iduser`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`updated_at` LIKE :beacukai_mutasi_dtl.`updated_at`: ESCAPE \'!\'
+OR  `beacukai_mutasi_dtl`.`updated_at` LIKE :beacukai_mutasi_dtl.`updated_at`.1: ESCAPE \'!\'
+ )
+ORDER BY `beacukai_mutasi_dtl`.`updated_at` DESC', [...], false)
+ 3 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:18:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'exim_wka', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:18:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(USER) AS user FROM log_login WHERE USER=\'beacukai\'')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:19:14 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'exim_wka', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:19:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(USER) AS user FROM log_login WHERE USER=\'beacukai\'')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:21:16 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'exim_wka', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:21:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(USER) AS user FROM log_login WHERE USER=\'beacukai\'')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(37): App\Models\exim\Useritv_model->Countuserbc()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:24:52 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:24:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:24:56 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:24:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:24:59 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:24:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:25:14 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:25:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:25:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:25:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:25:44 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:25:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:25:45 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:25:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:26:35 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:26:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:26:46 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:26:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:26:47 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:26:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:26:57 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:26:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:27:01 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:27:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-20 14:27:56 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-20 14:27:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

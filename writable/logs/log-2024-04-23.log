@@ -1,0 +1,365 @@
+ERROR - 2024-04-23 08:35:47 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `beacuka...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `beacuka...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `beacuka...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-23 08:35:47 --> Call to a member function getResult() on bool
+in APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php on line 303.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 08:35:54 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 08:45:14 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 08:45:18 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 08:47:53 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 08:47:58 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 08:48:02 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 09:37:38 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-04-23 09:37:43 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-23 10:39:47 --> Undefined variable $api
+in APPPATH\Views\laporan\tabelbulanan.php on line 95.
+ 1 APPPATH\Views\laporan\tabelbulanan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $api', 'APPPATH\\Views\\laporan\\tabelbulanan.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\laporan\\tabelbulanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/tabelbulanan', [], true)
+ 5 APPPATH\Controllers\Laporan.php(255): view('laporan/tabelbulanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsendivlaporanbulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:49:19 --> Undefined array key 1
+in APPPATH\Controllers\exim\Jurnalpengeluaranbank.php on line 321.
+ 1 APPPATH\Controllers\exim\Jurnalpengeluaranbank.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\exim\\Jurnalpengeluaranbank.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpengeluaranbank->Saveeditjurnalpengeluaranbank()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpengeluaranbank))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-23 11:49:21 --> Undefined array key 1
+in APPPATH\Controllers\exim\Jurnalpengeluaranbank.php on line 321.
+ 1 APPPATH\Controllers\exim\Jurnalpengeluaranbank.php(321): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\exim\\Jurnalpengeluaranbank.php', 321)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpengeluaranbank->Saveeditjurnalpengeluaranbank()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpengeluaranbank))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 12:15:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nilai`, beacukai_jurnal_pembelian.`kgm` FROM beacukai_jurnal_pembelian
+      ' at line 1 in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT beacukai...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT beacukai...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT beacukai...')
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpenerimaanbank_model.php(80): CodeIgniter\Database\BaseConnection->query('SELECT beacukai...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpenerimaanbank.php(44): App\Models\exim\jurnal\Jurnalpenerimaanbank_model->Aju()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpenerimaanbank->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpenerimaanbank))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-23 12:15:49 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\exim\jurnal\Jurnalpenerimaanbank_model.php on line 84.
+ 1 APPPATH\Controllers\exim\Jurnalpenerimaanbank.php(44): App\Models\exim\jurnal\Jurnalpenerimaanbank_model->Aju()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpenerimaanbank->Index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpenerimaanbank))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 14:16:55 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.220', 'root', 'wkag1234', 'fin_pro', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/se...', 'before')
+#11 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+#5 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/se...', 'before')
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 14:16:55 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 9 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/sejurnalpembelian/saveedit', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 14:17:25 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.220', 'root', 'wkag1234', 'fin_pro', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/se...', 'before')
+#11 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+#5 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/se...', 'before')
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-23 14:17:25 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '149')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('149')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 9 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/jurnal/sejurnalpembelian/datatables', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 14:24:55 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\wiharta\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(79): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Saveedit()
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `beacuka...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#5 C:\xampp\htdocs\wiharta\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(79): CodeIgniter\Model->update()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Saveedit()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-04-23 14:24:55 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `beacukai_jurnal_pembelian_detail` SET `kurs` = :kurs:, `updated_at` = :updated_at:
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 4 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 5 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 6 APPPATH\Controllers\exim\Jurnalpembelian.php(79): CodeIgniter\Model->update()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Saveedit()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 16:23:16 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `beacuka...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `beacuka...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `beacuka...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(302): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-23 16:23:16 --> Call to a member function getResult() on bool
+in APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php on line 303.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-23 16:30:16 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(252): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(388): App\Models\exim\jurnal\Jurnalpembelian_model->count_allsejurnalpembelian()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Datatablessejurnalpembelian()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-04-23 16:30:16 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(241): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(390): App\Models\exim\jurnal\Jurnalpembelian_model->count_filteredsejurnalpembelian(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Datatablessejurnalpembelian()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}

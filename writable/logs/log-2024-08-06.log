@@ -1,0 +1,135 @@
+ERROR - 2024-08-06 15:00:03 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:12 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:16 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:24 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:26 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:31 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:00:31 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-08-06 15:03:54 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-06 15:39:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 233.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 233)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-06 20:57:12 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 912.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'SYSTEMPATH\\Session\\Session.php', 912)
+ 2 SYSTEMPATH\Session\Session.php(912): session_start()
+ 3 SYSTEMPATH\Session\Session.php(234): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(959): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 VENDORPATH\myth\auth\src\Controllers\AuthController.php(29): service('session')
+11 SYSTEMPATH\CodeIgniter.php(889): Myth\Auth\Controllers\AuthController->__construct()
+12 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+13 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

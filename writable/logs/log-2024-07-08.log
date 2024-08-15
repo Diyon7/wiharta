@@ -1,0 +1,928 @@
+ERROR - 2024-07-08 07:46:18 --> mysqli_sql_exception: Unknown column 'potong_mtipe.kodetipe' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\item\Tipedtl_model.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 07:46:18 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\item\Tipedtl_model.php on line 87.
+ 1 APPPATH\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 07:47:08 --> mysqli_sql_exception: Unknown column 'potong_mtipe.kodetipe' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\item\Tipedtl_model.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 07:47:08 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\item\Tipedtl_model.php on line 87.
+ 1 APPPATH\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 07:47:18 --> mysqli_sql_exception: Unknown column 'potong_mtipe.kodetipe' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\item\Tipedtl_model.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 07:47:18 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\item\Tipedtl_model.php on line 87.
+ 1 APPPATH\Controllers\potong\Item.php(182): App\Models\potong\item\Tipedtl_model->get_datatablestipeitem([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablestipeitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 08:30:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%' OR item_ccn.`item` LIKE '%bbo'%' ORDER BY dtl.`itemdtl` DESC LIMIT 10' at line 1 in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT item_ccn...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT item_ccn...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bbo'')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-08 08:30:55 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php on line 182.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bbo\'')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:43:45 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-08 09:43:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacukai_pib`.`seq`, `beacukai_jurnal_pembelian`.`id`, `beacukai_pib`.`mu`, `kurs`, `beacukai_pib`.`noaju` AS `aju`, `beacukai_pib`.`fasilitas`, `beacukai_pib`.`kode_item` AS `rec_item`, `beacukai_pib`.`desk` AS `item_description`, `beacukai_pib`.`qty` AS `qt`, `beacukai_pib`.`kgm` AS `kg`, `beacukai_pib`.`nilai`, `mrp`.`po`, `mrp`.`bapb`, `mrp`.`tglbapb` AS `tgl_bapb`, `tb_kode_bb`.`satuan` AS `stn`, `ven_loc_name` AS `supplyer`, `ven_loc_country`
+FROM `beacukai_pib`
+LEFT JOIN `tb_kode_bb` ON `tb_kode_bb`.`kode_bb`=`beacukai_pib`.`itembc`
+LEFT JOIN (SELECT rech_hdr.receiver AS bapb,rech_hdr.`rec_hdr_freight_bill` AS aju,rech_hdr.`no_beacukai` AS pib,rech_hdr.`rec_hdr_rec_date` AS tglbapb,ven_loc_country,ven_loc_name, rech_hdr.`rec_order_num` AS po FROM rech_hdr LEFT JOIN ven_loc ON ven_loc.vendor=rech_hdr.rec_hdr_vendor) AS mrp ON `mrp`.`aju`=`beacukai_pib`.`noaju` AND `mrp`.`pib`=`beacukai_pib`.`pib`
+LEFT JOIN `beacukai_jurnal_pembelian` ON beacukai_jurnal_pembelian.`bapb`=mrp.bapb AND beacukai_jurnal_pembelian.`item`=beacukai_pib.`kode_item`
+LEFT JOIN `beacukai_jurnal_pembelian_detail` ON beacukai_jurnal_pembelian_detail.`id`=beacukai_jurnal_pembelian.`id`
+WHERE `beacukai_pib`.`seq` = :beacukai_pib.`seq`:', [...], false)
+ 3 APPPATH\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:43:49 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacuka...', Array, false)
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-08 09:43:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `beacukai_pib`.`seq`, `beacukai_jurnal_pembelian`.`id`, `beacukai_pib`.`mu`, `kurs`, `beacukai_pib`.`noaju` AS `aju`, `beacukai_pib`.`fasilitas`, `beacukai_pib`.`kode_item` AS `rec_item`, `beacukai_pib`.`desk` AS `item_description`, `beacukai_pib`.`qty` AS `qt`, `beacukai_pib`.`kgm` AS `kg`, `beacukai_pib`.`nilai`, `mrp`.`po`, `mrp`.`bapb`, `mrp`.`tglbapb` AS `tgl_bapb`, `tb_kode_bb`.`satuan` AS `stn`, `ven_loc_name` AS `supplyer`, `ven_loc_country`
+FROM `beacukai_pib`
+LEFT JOIN `tb_kode_bb` ON `tb_kode_bb`.`kode_bb`=`beacukai_pib`.`itembc`
+LEFT JOIN (SELECT rech_hdr.receiver AS bapb,rech_hdr.`rec_hdr_freight_bill` AS aju,rech_hdr.`no_beacukai` AS pib,rech_hdr.`rec_hdr_rec_date` AS tglbapb,ven_loc_country,ven_loc_name, rech_hdr.`rec_order_num` AS po FROM rech_hdr LEFT JOIN ven_loc ON ven_loc.vendor=rech_hdr.rec_hdr_vendor) AS mrp ON `mrp`.`aju`=`beacukai_pib`.`noaju` AND `mrp`.`pib`=`beacukai_pib`.`pib`
+LEFT JOIN `beacukai_jurnal_pembelian` ON beacukai_jurnal_pembelian.`bapb`=mrp.bapb AND beacukai_jurnal_pembelian.`item`=beacukai_pib.`kode_item`
+LEFT JOIN `beacukai_jurnal_pembelian_detail` ON beacukai_jurnal_pembelian_detail.`id`=beacukai_jurnal_pembelian.`id`
+WHERE `beacukai_pib`.`seq` = :beacukai_pib.`seq`:', [...], false)
+ 3 APPPATH\Models\exim\jurnal\Jurnalpembelian_model.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\exim\Jurnalpembelian.php(104): App\Models\exim\jurnal\Jurnalpembelian_model->Jurnalpembelianedit('72')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Addjurnalpembelian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:43:51 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 09:43:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:44:06 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 09:44:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:53:29 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:53:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:53:48 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:53:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:53:50 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:53:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:53:52 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:53:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:53:52 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:53:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:56:46 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `be...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(151): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Delete()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `be...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(151): CodeIgniter\BaseModel->delete()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Delete()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:56:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `beacukai_jurnal_pembelian`
+WHERE `id` = :id:', [...], false)
+ 3 SYSTEMPATH\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+ 4 SYSTEMPATH\BaseModel.php(984): CodeIgniter\Model->doDelete(null, false)
+ 5 APPPATH\Controllers\exim\Jurnalpembelian.php(151): CodeIgniter\BaseModel->delete()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Delete()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:56:48 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 09:56:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:56:59 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'exim_wka', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 09:56:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(USER) AS user FROM log_login WHERE USER=\'beacukai\'')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:57:15 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 09:57:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 09:57:19 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-08 09:57:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(38): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:08 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle m...')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle m...')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,item_description,IF(dtl.`itemdtl` IS NULL,\'(Belum Pernah Dipakai di mutasi produksi)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT item AS itemdtl FROM beacukai_mutasi_dtl GROUP BY item) AS dtl ON item_ccn.item=dtl.itemdtl WHERE item_description LIKE \'%bahan recycle materia%\' OR item_ccn.`item` LIKE \'%bahan recycle materia%\' ORDER BY dtl.`itemdtl` DESC LIMIT 10')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle materia')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:08 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle m...')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle m...')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,item_description,IF(dtl.`itemdtl` IS NULL,\'(Belum Pernah Dipakai di mutasi produksi)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT item AS itemdtl FROM beacukai_mutasi_dtl GROUP BY item) AS dtl ON item_ccn.item=dtl.itemdtl WHERE item_description LIKE \'%bahan recycle material%\' OR item_ccn.`item` LIKE \'%bahan recycle material%\' ORDER BY dtl.`itemdtl` DESC LIMIT 10')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recycle material')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:08 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:42 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recy')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recy')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,item_description,IF(dtl.`itemdtl` IS NULL,\'(Belum Pernah Dipakai di mutasi produksi)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT item AS itemdtl FROM beacukai_mutasi_dtl GROUP BY item) AS dtl ON item_ccn.item=dtl.itemdtl WHERE item_description LIKE \'%bahan recy%\' OR item_ccn.`item` LIKE \'%bahan recy%\' ORDER BY dtl.`itemdtl` DESC LIMIT 10')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recy')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:42 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recyc')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recyc')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(181): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,item_description,IF(dtl.`itemdtl` IS NULL,\'(Belum Pernah Dipakai di mutasi produksi)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT item AS itemdtl FROM beacukai_mutasi_dtl GROUP BY item) AS dtl ON item_ccn.item=dtl.itemdtl WHERE item_description LIKE \'%bahan recyc%\' OR item_ccn.`item` LIKE \'%bahan recyc%\' ORDER BY dtl.`itemdtl` DESC LIMIT 10')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(64): App\Models\exim\barangjadi\MutasiProduksi_model->Allitemserver('bahan recyc')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:00:42 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:00:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:06:24 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:06:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(39): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 10:07:17 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'exim_wka', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(US...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 10:07:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\Useritv_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(USER) AS user FROM log_login WHERE USER=\'beacukai\'')
+ 3 APPPATH\Controllers\exim\Jurnalpembelian.php(44): App\Models\exim\Useritv_model->Countuserbc()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-08 13:04:31 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst,...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-08 13:04:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\barangjadi\Saldoawal_model.php(48): CodeIgniter\Database\BaseConnection->query('SELECT analyst, analyst_code, analyst_name FROM beacukai_analyst')
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(32): App\Models\exim\barangjadi\Saldoawal_model->Lokasi()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

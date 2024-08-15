@@ -1,0 +1,7 @@
+RewriteEngine On 
+Options +FollowSymlinks 
+
+RewriteCond %{HTTP_HOST} !^www\.site3\.com<br>
+RewriteCond %{HTTP_HOST} !^static\.site3\.com<br>
+RewriteCond %{HTTP_HOST} ^(www\.)?(.+)\.site3.com$ [NC]
+RewriteRule ^(.*)$ http://154.100.100.220/wiharta/public/%2 [L]

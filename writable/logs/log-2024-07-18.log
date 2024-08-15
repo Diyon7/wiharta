@@ -1,0 +1,432 @@
+CRITICAL - 2024-07-18 02:49:00 --> Undefined variable $bulan
+in APPPATH\Controllers\Laporan.php on line 153.
+ 1 APPPATH\Controllers\Laporan.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Laporan.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 03:04:39 --> Undefined variable $bulan
+in APPPATH\Controllers\Laporan.php on line 153.
+ 1 APPPATH\Controllers\Laporan.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Laporan.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 03:39:50 --> 6 : Could not resolve host: apiliburnasional.vercel.app
+in SYSTEMPATH\HTTP\CURLRequest.php on line 655.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: apiliburnasional.vercel.app')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://apiliburnasional.vercel.app/api?bulan=06&tahun=2024')
+ 4 APPPATH\Controllers\Laporan.php(100): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://apiliburnasional.vercel.app/api?bulan=06&tahun=2024')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 04:17:06 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jdw_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jdw_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jdw_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(342): CodeIgniter\Database\BaseConnection->query('SELECT jdw_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 04:17:06 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 342.
+ 1 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 04:17:10 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(s1...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(s1...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(s1...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(243): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(s1...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 04:17:10 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 243.
+ 1 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 04:17:13 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(s1...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(s1...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(s1...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(243): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(s1...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 04:17:13 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 243.
+ 1 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 07:17:40 --> mysqli_sql_exception: Server shutdown in progress in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(s1...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(s1...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(s1...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(234): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(s1...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-07-18 07:17:40 --> mysqli_sql_exception: Server shutdown in progress in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(s1...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(s1...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(s1...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(234): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(s1...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen(Array)
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 07:17:40 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 234.
+ 1 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 07:17:40 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 234.
+ 1 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 07:17:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'fin_pro', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '153')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('153')
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/laporan/t...', 'before')
+#11 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, '153')
+#5 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('153')
+#6 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#7 C:\xampp\htdocs\wiharta\vendor\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+#8 C:\xampp\htdocs\wiharta\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/laporan/t...', 'before')
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-18 07:17:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL
+AND `users`.`id` = :users.id:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, '153')
+ 5 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find('153')
+ 6 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 7 VENDORPATH\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+ 8 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 9 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/laporan/tabellaporanbulanan', 'before')
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:38:38 --> Undefined variable $tipeitem
+in APPPATH\Views\potong\item\tipeedit.php on line 7.
+ 1 APPPATH\Views\potong\item\tipeedit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeitem', 'APPPATH\\Views\\potong\\item\\tipeedit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\item\\tipeedit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/item/tipeedit', [], true)
+ 5 APPPATH\Controllers\potong\Item.php(138): view('potong/item/tipeedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tipeedit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:39:12 --> Undefined variable $tipeitem
+in APPPATH\Views\potong\item\tipeedit.php on line 19.
+ 1 APPPATH\Views\potong\item\tipeedit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipeitem', 'APPPATH\\Views\\potong\\item\\tipeedit.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\item\\tipeedit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/item/tipeedit', [], true)
+ 5 APPPATH\Controllers\potong\Item.php(138): view('potong/item/tipeedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tipeedit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 11:05:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\wiharta\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(210): CodeIgniter\Model->update()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Savetipe()
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-18 11:08:42 --> Undefined array key 0
+in APPPATH\Views\potong\item\tipeedit.php on line 8.
+ 1 APPPATH\Views\potong\item\tipeedit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\potong\\item\\tipeedit.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\item\\tipeedit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/item/tipeedit', [], true)
+ 5 APPPATH\Controllers\potong\Item.php(138): view('potong/item/tipeedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tipeedit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:08:50 --> Undefined array key 0
+in APPPATH\Views\potong\item\tipeedit.php on line 8.
+ 1 APPPATH\Views\potong\item\tipeedit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\potong\\item\\tipeedit.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\item\\tipeedit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/item/tipeedit', [], true)
+ 5 APPPATH\Controllers\potong\Item.php(138): view('potong/item/tipeedit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tipeedit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:33:38 --> Unsupported operand types: array + int
+in APPPATH\Controllers\potong\Item.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tambahtipe()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:36:03 --> Unsupported operand types: array + int
+in APPPATH\Controllers\potong\Item.php on line 121.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tambahtipe()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:37:54 --> Undefined variable $maxkode
+in APPPATH\Controllers\potong\Item.php on line 145.
+ 1 APPPATH\Controllers\potong\Item.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $maxkode', 'APPPATH\\Controllers\\potong\\Item.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tambahtipe()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:54:56 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\potong\Item.php on line 341.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\potong\\Item.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Potong\\Item')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Potong\\Item')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Potong\\Item', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:56:20 --> Call to undefined method App\Models\potong\item\Item_model::get_datatablesitem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Item.php(357): CodeIgniter\Model->__call('get_datatablesitem', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablesitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:57:00 --> Call to undefined method App\Models\potong\item\Item_model::get_datatablesitem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Item.php(348): CodeIgniter\Model->__call('get_datatablesitem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablesitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:58:44 --> Call to undefined method App\Models\potong\item\Item_model::get_datatablesitem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Item.php(348): CodeIgniter\Model->__call('get_datatablesitem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablesitem()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:59:37 --> Call to undefined method App\Models\potong\item\Item_model::_get_datatables_querytipeitem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\potong\item\Item_model.php(64): CodeIgniter\Model->__call('_get_datatables_querytipeitem', [])
+ 2 APPPATH\Controllers\potong\Item.php(348): App\Models\potong\item\Item_model->get_datatablesitem()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablesitem()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 11:59:58 --> Call to undefined method App\Models\potong\item\Item_model::_get_datatables_querytipeitem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Models\potong\item\Item_model.php(64): CodeIgniter\Model->__call('_get_datatables_querytipeitem', [])
+ 2 APPPATH\Controllers\potong\Item.php(348): App\Models\potong\item\Item_model->get_datatablesitem()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Datatablesitem()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 15:58:19 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 15:58:24 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 15:58:26 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 15:58:30 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 15:58:30 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 16:58:31 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 16:58:37 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 16:58:41 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 16:58:48 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-07-18 16:58:51 --> mysqli_sql_exception: Column 'tglinv' in field list is ambiguous in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(551): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\Exportmutasi_model.php(242): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\exim\Exportmutasi.php(408): App\Models\exim\barangjadi\Exportmutasi_model->count_allexportmutasi()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Exportmutasi->Datatablesexport()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Exportmutasi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}

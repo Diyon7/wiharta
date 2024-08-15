@@ -1,0 +1,8 @@
+CRITICAL - 2024-05-26 01:28:31 --> Trying to access array offset on value of type null
+in APPPATH\Models\Laporan_model.php on line 365.
+ 1 APPPATH\Models\Laporan_model.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Models\\Laporan_model.php', 365)
+ 2 APPPATH\Controllers\Laporan.php(149): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

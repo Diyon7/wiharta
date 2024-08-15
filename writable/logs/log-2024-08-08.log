@@ -1,0 +1,95 @@
+CRITICAL - 2024-08-08 09:44:41 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 09:44:43 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 09:44:59 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 09:45:09 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 10:04:14 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 12:11:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\prosesproduksi\realisasi.php on line 37.
+ 1 APPPATH\Views\potong\prosesproduksi\realisasi.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/realisasi', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(243): view('potong/prosesproduksi/realisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-08 13:26:37 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-08 13:52:25 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pegawai...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pegawai...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pegawai...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `pegawai...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Models\Pegawai_Model.php(234): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\Karyawan.php(820): App\Models\Pegawai_Model->get_datatableskaryawanajp3()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Karyawan->Datatablesjp3a()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-08 13:52:25 --> Call to a member function getResult() on bool
+in APPPATH\Models\Pegawai_Model.php on line 235.
+ 1 APPPATH\Controllers\Karyawan.php(820): App\Models\Pegawai_Model->get_datatableskaryawanajp3()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->Datatablesjp3a()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-08 13:52:43 --> mysqli_sql_exception: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation 'like' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `pegawai...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pegawai...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pegawai...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `pegawai...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Models\Logkaryawan_model.php(70): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\Karyawan.php(917): App\Models\Logkaryawan_model->get_datatableskaryawanajp3()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Karyawan->Datatableslogkaryawan()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-08-08 13:52:43 --> Call to a member function getResult() on bool
+in APPPATH\Models\Logkaryawan_model.php on line 71.
+ 1 APPPATH\Controllers\Karyawan.php(917): App\Models\Logkaryawan_model->get_datatableskaryawanajp3()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->Datatableslogkaryawan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

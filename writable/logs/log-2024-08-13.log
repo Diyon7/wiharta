@@ -1,0 +1,14 @@
+CRITICAL - 2024-08-13 16:32:58 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-13 16:33:00 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

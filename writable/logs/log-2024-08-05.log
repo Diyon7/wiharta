@@ -1,0 +1,224 @@
+CRITICAL - 2024-08-05 08:41:41 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:41:44 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:41:53 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:44:09 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:44:48 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:48:07 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 08:54:49 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 09:00:36 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 09:01:04 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 09:01:16 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 09:02:36 --> Undefined variable $tambahmutasihdr
+in APPPATH\Controllers\exim\MutasiProduksi.php on line 364.
+ 1 APPPATH\Controllers\exim\MutasiProduksi.php(364): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tambahmutasihdr', 'APPPATH\\Controllers\\exim\\MutasiProduksi.php', 364)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Editselected()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 11:40:25 --> Division by zero
+in APPPATH\Views\rekap\tabelharian.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rekap/tabelharian', [], true)
+ 4 APPPATH\Controllers\Rekap.php(155): view('rekap/tabelharian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rekap->Tabelabsenlaporanharian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 11:40:39 --> Division by zero
+in APPPATH\Views\rekap\tabelharian.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rekap/tabelharian', [], true)
+ 4 APPPATH\Controllers\Rekap.php(155): view('rekap/tabelharian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rekap->Tabelabsenlaporanharian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 11:40:43 --> Division by zero
+in APPPATH\Views\rekap\tabelharian.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rekap/tabelharian', [], true)
+ 4 APPPATH\Controllers\Rekap.php(155): view('rekap/tabelharian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rekap->Tabelabsenlaporanharian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 11:40:55 --> Division by zero
+in APPPATH\Views\rekap\tabelharian.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rekap/tabelharian', [], true)
+ 4 APPPATH\Controllers\Rekap.php(155): view('rekap/tabelharian', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rekap->Tabelabsenlaporanharian()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 11:55:03 --> mysqli_sql_exception: Unknown column 'potong_rcn_ri.seq' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\produksi\Rcnproduksi_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(284): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-05 11:55:03 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 129.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(284): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 12:00:59 --> mysqli_sql_exception: Unknown column 'potong_rcn_ri.seq' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\produksi\Rcnproduksi_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-05 12:00:59 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 129.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 12:01:04 --> mysqli_sql_exception: Unknown column 'potong_rcn_ri.seq' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\produksi\Rcnproduksi_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-05 12:01:04 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 129.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 12:02:01 --> mysqli_sql_exception: Unknown column 'potong_rcn_ri.seq' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\produksi\Rcnproduksi_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-05 12:02:01 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 129.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 12:03:49 --> mysqli_sql_exception: Unknown column 'potong_rcn_ri.seq' in 'field list' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `potong_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `potong_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `potong_...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `potong_...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\potong\produksi\Rcnproduksi_model.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana(Array)
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-05 12:03:49 --> Call to a member function getResult() on bool
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 129.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(280): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailkumrencana([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrabalance()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-05 13:30:42 --> Undefined variable $bulan
+in APPPATH\Controllers\Laporan.php on line 244.
+ 1 APPPATH\Controllers\Laporan.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'APPPATH\\Controllers\\Laporan.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsendivlaporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

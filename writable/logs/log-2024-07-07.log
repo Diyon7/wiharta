@@ -1,0 +1,115 @@
+CRITICAL - 2024-07-07 21:26:57 --> Undefined variable $tipe
+in APPPATH\Views\potong\rcnproduksi\index.php on line 87.
+ 1 APPPATH\Views\potong\rcnproduksi\index.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'APPPATH\\Views\\potong\\rcnproduksi\\index.php', 87)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/index', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(47): view('potong/rcnproduksi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 21:41:56 --> Undefined array key "namatipe"
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 20.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namatipe"', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(107): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 21:42:30 --> Undefined array key "namatipe"
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 20.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namatipe"', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(107): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 21:43:02 --> Undefined array key "kodeitem"
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 20.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeitem"', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(107): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 21:43:12 --> Undefined array key "kodeitem"
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 20.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeitem"', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(107): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 21:58:26 --> Undefined variable $tipe
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 110.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipe', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(107): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:44:44 --> Undefined property: stdClass::$tgl
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 168.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tgl', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 168)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:45:34 --> Call to undefined method App\Models\potong\item\Tipedtl_model::get_datatablesydetailrencana
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(161): CodeIgniter\Model->__call('get_datatablesydetailrencana', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:46:24 --> Call to undefined method App\Models\potong\item\Tipedtl_model::get_datatablesdetailrencana
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(161): CodeIgniter\Model->__call('get_datatablesdetailrencana', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:49:28 --> Too few arguments to function App\Models\potong\produksi\Rcnproduksi_model::get_datatablesdetailrencana(), 0 passed in C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php on line 159 and exactly 1 expected
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 62.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(159): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailrencana()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:51:16 --> Too few arguments to function App\Models\potong\produksi\Rcnproduksi_model::get_datatablesdetailrencana(), 0 passed in C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php on line 159 and exactly 1 expected
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 62.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(159): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailrencana()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:51:31 --> Too few arguments to function App\Models\potong\produksi\Rcnproduksi_model::get_datatablesdetailrencana(), 0 passed in C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php on line 159 and exactly 1 expected
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 62.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(159): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailrencana()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-07 22:53:05 --> Too few arguments to function App\Models\potong\produksi\Rcnproduksi_model::get_datatablesdetailrencana(), 0 passed in C:\xampp\htdocs\wiharta\app\Controllers\potong\Rcnproduksi.php on line 159 and exactly 1 expected
+in APPPATH\Models\potong\produksi\Rcnproduksi_model.php on line 62.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(159): App\Models\potong\produksi\Rcnproduksi_model->get_datatablesdetailrencana()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

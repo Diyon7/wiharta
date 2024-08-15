@@ -1,0 +1,59 @@
+CRITICAL - 2024-08-07 08:48:40 --> You do not have sufficient permissions to access that page.
+in VENDORPATH\myth\auth\src\Filters\PermissionFilter.php on line 47.
+ 1 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/logkaryawan', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 11:49:54 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 912.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'SYSTEMPATH\\Session\\Session.php', 912)
+ 2 SYSTEMPATH\Session\Session.php(912): session_start()
+ 3 SYSTEMPATH\Session\Session.php(234): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(665): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 6 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(637): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(931): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(128): session('logged_in')
+11 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+12 VENDORPATH\myth\auth\src\Filters\PermissionFilter.php(21): Myth\Auth\Authentication\LocalAuthenticator->check()
+13 SYSTEMPATH\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), [...])
+14 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('admin/mutasi/mutasiproduksi', 'before')
+15 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:29:37 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:29:40 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:30:00 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:30:06 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-07 16:30:17 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

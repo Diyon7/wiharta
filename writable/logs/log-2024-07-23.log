@@ -1,0 +1,34 @@
+CRITICAL - 2024-07-23 10:31:31 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-23 21:44:30 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php on line 264
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(264): CodeIgniter\Database\BaseBuilder->like('beacukai_mutasi_hdr.`analyst_asal`', null)
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(299): App\Models\exim\barangjadi\MutasiProduksi_model->_get_datatables_querymutasiproduksi([...])
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-23 21:45:02 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php on line 264
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(264): CodeIgniter\Database\BaseBuilder->like('beacukai_mutasi_hdr.`analyst_asal`', null)
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(299): App\Models\exim\barangjadi\MutasiProduksi_model->_get_datatables_querymutasiproduksi([...])
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-23 21:46:48 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\wiharta\app\Models\exim\barangjadi\MutasiProduksi_model.php on line 264
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(264): CodeIgniter\Database\BaseBuilder->like('beacukai_mutasi_hdr.`analyst_asal`', null)
+ 2 APPPATH\Models\exim\barangjadi\MutasiProduksi_model.php(299): App\Models\exim\barangjadi\MutasiProduksi_model->_get_datatables_querymutasiproduksi([...])
+ 3 APPPATH\Controllers\exim\MutasiProduksi.php(586): App\Models\exim\barangjadi\MutasiProduksi_model->get_datatablesmutasiproduksi([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Mutasiproduksi->Datatablesmutasiproduksi()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Mutasiproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,6 @@
+RewriteEngine On 
+Options +FollowSymlinks 
+
+RewriteCond %{HTTP_HOST} !^www\.site3\.com<br>
+RewriteCond %{HTTP_HOST} !^static\.site3\.com<br>
+RewriteCond %{HTTP_HOST} ^(www\.)?(.+)\.site3.com$ [NC]

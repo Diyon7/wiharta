@@ -1,0 +1,556 @@
+ERROR - 2024-05-23 08:28:44 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 08:28:44 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 08:31:33 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 08:31:33 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 08:34:02 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(30): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 08:34:02 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 30.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:18:01 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(30): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:18:01 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 30.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:23:31 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:23:31 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:23:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jam_kerja2.`jk_bcin` AS smasuk, jam_kerja2.`jk_durtime` AS durasi, jam_kerja2.`j' at line 1 in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('jam_kerja2.`jk_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('jam_kerja2.`jk_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('jam_kerja2.`jk_...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('jam_kerja2.`jk_...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:23:47 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:24:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jam_kerja2.`jk_bcin` AS smasuk, jam_kerja2.`jk_durtime` AS durasi, jam_kerja2.`j' at line 1 in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('jam_kerja2.`jk_...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('jam_kerja2.`jk_...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('jam_kerja2.`jk_...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('jam_kerja2.`jk_...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:24:01 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:24:42 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:24:42 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:24:50 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:24:50 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:25:04 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:25:04 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:26:31 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:26:31 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 29.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:26:55 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:26:55 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 30.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:27:10 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:27:10 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:27:24 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:27:24 --> Call to a member function get() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:27:30 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:27:30 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:28:12 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:28:12 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 31.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:28:33 --> mysqli_sql_exception: Unknown column 'jam_kerja.grup' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:28:33 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:28:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND jam_kerja.jk_name NOT LIKE '%sabtu%' AND jam_kerja.jk_kode2='s1'' at line 3 in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:28:42 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 31.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:28:48 --> mysqli_sql_exception: Unknown column 'jam_kerja.jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:28:48 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 30.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:30:00 --> mysqli_sql_exception: Unknown column 'jam_kerja.grup' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:30:00 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:30:12 --> mysqli_sql_exception: Unknown column 'jam_kerja.grup' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT jam_kerj...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT jam_kerj...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT jam_kerj...')
+#3 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(29): CodeIgniter\Database\BaseConnection->query('SELECT jam_kerj...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 12:30:12 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 32.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:35:46 --> mysqli_sql_exception: Unknown column 'jk_kode2' in 'where clause' in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `jam_ker...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jam_ker...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jam_ker...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `jam_ker...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 12:35:46 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 41.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:36:46 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `jk_bcin...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jk_bcin...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jk_bcin...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `jk_bcin...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 12:36:46 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 41.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:37:07 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `jk_bcin...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jk_bcin...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jk_bcin...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `jk_bcin...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 12:37:07 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 38.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:37:17 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 12:37:17 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 38.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-23 12:38:10 --> mysqli_sql_exception: Table 'fin_pro.jam_kerja2' doesn't exist in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\app\Models\Laporan_model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-23 12:38:10 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Laporan_model.php on line 38.
+ 1 APPPATH\Controllers\Laporan.php(66): App\Models\Laporan_model->Datacoba()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:54:59 --> Undefined variable $shift
+in APPPATH\Models\Laporan_model.php on line 284.
+ 1 APPPATH\Models\Laporan_model.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shift', 'APPPATH\\Models\\Laporan_model.php', 284)
+ 2 APPPATH\Controllers\Laporan.php(151): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsenlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 12:57:32 --> Undefined variable $shift
+in APPPATH\Models\Laporan_model.php on line 284.
+ 1 APPPATH\Models\Laporan_model.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shift', 'APPPATH\\Models\\Laporan_model.php', 284)
+ 2 APPPATH\Controllers\Laporan.php(333): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsentanlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:05:38 --> Undefined variable $shift
+in APPPATH\Models\Laporan_model.php on line 284.
+ 1 APPPATH\Models\Laporan_model.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shift', 'APPPATH\\Models\\Laporan_model.php', 284)
+ 2 APPPATH\Controllers\Laporan.php(333): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsentanlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 13:08:22 --> Undefined variable $shift
+in APPPATH\Models\Laporan_model.php on line 284.
+ 1 APPPATH\Models\Laporan_model.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shift', 'APPPATH\\Models\\Laporan_model.php', 284)
+ 2 APPPATH\Controllers\Laporan.php(333): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsentanlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 14:36:18 --> Call to undefined function isNull()
+in APPPATH\Views\laporan\bulanan.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('laporan/bulanan', [], true)
+ 4 APPPATH\Controllers\Laporan.php(81): view('laporan/bulanan', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 14:41:04 --> Call to undefined method App\Models\Laporan_model::Datacoba
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Laporan.php(66): CodeIgniter\Model->__call('Datacoba', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Laporanbulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-23 15:02:19 --> Trying to access array offset on value of type null
+in APPPATH\Models\Laporan_model.php on line 342.
+ 1 APPPATH\Models\Laporan_model.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Models\\Laporan_model.php', 342)
+ 2 APPPATH\Controllers\Laporan.php(333): App\Models\Laporan_model->Dataabsen([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Laporan->Tabelabsentanlaporanbulanan()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

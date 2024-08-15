@@ -1,0 +1,452 @@
+CRITICAL - 2024-07-15 08:53:27 --> Invalid file: potong/prosesproduksi/edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('potong/prosesproduksi/edit.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 3 APPPATH\Controllers\potong\Prosesproduksi.php(168): view('potong/prosesproduksi/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:03:33 --> Undefined variable $tampildata
+in APPPATH\Views\potong\prosesproduksi\edit.php on line 7.
+ 1 APPPATH\Views\potong\prosesproduksi\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'APPPATH\\Views\\potong\\prosesproduksi\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(168): view('potong/prosesproduksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:08:56 --> Undefined variable $tampildata
+in APPPATH\Views\potong\prosesproduksi\edit.php on line 7.
+ 1 APPPATH\Views\potong\prosesproduksi\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'APPPATH\\Views\\potong\\prosesproduksi\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(168): view('potong/prosesproduksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:12:48 --> Undefined array key "seq"
+in APPPATH\Views\potong\prosesproduksi\edit.php on line 7.
+ 1 APPPATH\Views\potong\prosesproduksi\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seq"', 'APPPATH\\Views\\potong\\prosesproduksi\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(172): view('potong/prosesproduksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:13:33 --> Undefined array key "seq"
+in APPPATH\Views\potong\prosesproduksi\edit.php on line 7.
+ 1 APPPATH\Views\potong\prosesproduksi\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seq"', 'APPPATH\\Views\\potong\\prosesproduksi\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(172): view('potong/prosesproduksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:52:41 --> Undefined array key "namaitem"
+in APPPATH\Views\potong\prosesproduksi\edit.php on line 31.
+ 1 APPPATH\Views\potong\prosesproduksi\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaitem"', 'APPPATH\\Views\\potong\\prosesproduksi\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/edit', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(171): view('potong/prosesproduksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:31:08 --> Call to undefined method App\Models\potong\produksi\Prosesproduksi_model::Searchtipercn
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(157): CodeIgniter\Model->__call('Searchtipercn', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:40:24 --> Call to undefined method App\Models\potong\produksi\Prosesproduksi_model::Searchtipercn
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(157): CodeIgniter\Model->__call('Searchtipercn', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:46:41 --> Call to undefined method App\Models\potong\produksi\Prosesproduksi_model::Searchtipercn
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(157): CodeIgniter\Model->__call('Searchtipercn', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:21:50 --> Array to string conversion
+in APPPATH\Models\potong\produksi\Prosesproduksi_model.php on line 33.
+ 1 APPPATH\Models\potong\produksi\Prosesproduksi_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\potong\\produksi\\Prosesproduksi_model.php', 33)
+ 2 APPPATH\Controllers\potong\Prosesproduksi.php(159): App\Models\potong\produksi\Prosesproduksi_model->Searchtipercn([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:21:53 --> Array to string conversion
+in APPPATH\Models\potong\produksi\Prosesproduksi_model.php on line 33.
+ 1 APPPATH\Models\potong\produksi\Prosesproduksi_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Models\\potong\\produksi\\Prosesproduksi_model.php', 33)
+ 2 APPPATH\Controllers\potong\Prosesproduksi.php(159): App\Models\potong\produksi\Prosesproduksi_model->Searchtipercn([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:31:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:45:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:45:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:45:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:46:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 11:46:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\potong\Prosesproduksi.php on line 159.
+ 1 APPPATH\Controllers\potong\Prosesproduksi.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\potong\\Prosesproduksi.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:44:12 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\wiharta\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\wiharta\app\Controllers\potong\Prosesproduksi.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Tambahdetailrealisasi()
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+#10 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\wiharta\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Prosesproduksi.php(86): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Tambahdetailrealisasi()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-15 13:44:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `potong_rcn_ri` (`norcn`, `iditem`, `jenismesin`, `no`, `kgm`, `vendor`, `grup`, `tgl`, `qty`, `user`, `created_at`, `updated_at`) VALUES (:norcn:, :iditem:, :jenismesin:, :no:, :kgm:, :vendor:, :grup:, :tgl:, :qty:, :user:, :created_at:, :updated_at:)', [...], false)
+ 3 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\potong\Prosesproduksi.php(86): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Tambahdetailrealisasi()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:45:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbat')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbat')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-15 13:45:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,klp_beacukai,item_description,IF(pib.`item` IS NULL,\'(Belum Pernah Dipakai di import)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT kode_item AS item FROM beacukai_pib GROUP BY kode_item) AS pib ON item_ccn.item=pib.item WHERE item_description LIKE \'%masterbat%\' OR item_ccn.`item` LIKE \'%masterbat%\' ORDER BY pib.`item` DESC LIMIT 5')
+ 3 APPPATH\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbat')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:45:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatc')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatc')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-15 13:45:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,klp_beacukai,item_description,IF(pib.`item` IS NULL,\'(Belum Pernah Dipakai di import)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT kode_item AS item FROM beacukai_pib GROUP BY kode_item) AS pib ON item_ccn.item=pib.item WHERE item_description LIKE \'%masterbatc%\' OR item_ccn.`item` LIKE \'%masterbatc%\' ORDER BY pib.`item` DESC LIMIT 5')
+ 3 APPPATH\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatc')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:45:43 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#4 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatch')
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\app\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn...')
+#3 C:\xampp\htdocs\wiharta\app\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatch')
+#4 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+#5 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-07-15 13:45:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\exim\import\Import_model.php(38): CodeIgniter\Database\BaseConnection->query('SELECT item_ccn.`item` AS item,klp_beacukai,item_description,IF(pib.`item` IS NULL,\'(Belum Pernah Dipakai di import)\',\'\') AS status FROM item_ccn LEFT JOIN (SELECT kode_item AS item FROM beacukai_pib GROUP BY kode_item) AS pib ON item_ccn.item=pib.item WHERE item_description LIKE \'%masterbatch%\' OR item_ccn.`item` LIKE \'%masterbatch%\' ORDER BY pib.`item` DESC LIMIT 5')
+ 3 APPPATH\Controllers\exim\Import.php(238): App\Models\exim\import\Import_model->Allitem('masterbatch')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Import->Searchitem()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Import))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:47:01 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-15 13:47:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mitem_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:47:04 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-15 13:47:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mitem_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Item.php(106): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:47:12 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-15 13:47:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-15 13:48:25 --> Error connecting to the database: mysqli_sql_exception: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Too many connections in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-15 13:48:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_mtipe_new`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\potong\Item.php(32): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

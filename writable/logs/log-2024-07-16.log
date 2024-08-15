@@ -1,0 +1,166 @@
+CRITICAL - 2024-07-16 08:41:00 --> Undefined array key "vendor"
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 135.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendor"', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Edit()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-16 08:42:30 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('154.100.100.3', 'root', '', 'mps_mrp', 3306, '', 0)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\wiharta\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wiharta\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\wiharta\app\Controllers\potong\Prosesproduksi.php(230): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+#9 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\xampp\htdocs\wiharta\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\wiharta\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\wiharta\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\wiharta\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\wiharta\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\wiharta\app\Controllers\potong\Prosesproduksi.php(230): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+#7 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+#8 C:\xampp\htdocs\wiharta\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wiharta\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-16 08:42:30 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `potong_rcn`
+WHERE `norcn` = :norcn:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(230): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 08:44:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\prosesproduksi\realisasi.php on line 21.
+ 1 APPPATH\Views\potong\prosesproduksi\realisasi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/realisasi', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(242): view('potong/prosesproduksi/realisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 08:44:38 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\prosesproduksi\realisasi.php on line 21.
+ 1 APPPATH\Views\potong\prosesproduksi\realisasi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/realisasi', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(242): view('potong/prosesproduksi/realisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 08:44:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\prosesproduksi\realisasi.php on line 21.
+ 1 APPPATH\Views\potong\prosesproduksi\realisasi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/realisasi', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(242): view('potong/prosesproduksi/realisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 08:48:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\prosesproduksi\realisasi.php on line 21.
+ 1 APPPATH\Views\potong\prosesproduksi\realisasi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\prosesproduksi\\realisasi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/prosesproduksi/realisasi', [], true)
+ 5 APPPATH\Controllers\potong\Prosesproduksi.php(242): view('potong/prosesproduksi/realisasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Prosesproduksi->Carirls()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Prosesproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 10:56:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 19.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(221): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 10:58:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\exim\jurnal\jurnalpembelian\editkurs.php on line 7.
+ 1 APPPATH\Views\exim\jurnal\jurnalpembelian\editkurs.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\exim\\jurnal\\jurnalpembelian\\editkurs.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\exim\\jurnal\\jurnalpembelian\\editkurs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('exim/jurnal/jurnalpembelian/editkurs', [], true)
+ 5 APPPATH\Controllers\exim\Jurnalpembelian.php(136): view('exim/jurnal/jurnalpembelian/editkurs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\exim\Jurnalpembelian->Edit()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\exim\Jurnalpembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 11:07:16 --> Undefined array key 0
+in APPPATH\Controllers\potong\Item.php on line 73.
+ 1 APPPATH\Controllers\potong\Item.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\potong\\Item.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Item->Tambahtipedtl()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Item))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 11:17:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 19.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(221): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 14:02:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\potong\rcnproduksi\rencana.php on line 19.
+ 1 APPPATH\Views\potong\rcnproduksi\rencana.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\potong\\rcnproduksi\\rencana.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\potong\\rcnproduksi\\rencana.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('potong/rcnproduksi/rencana', [], true)
+ 5 APPPATH\Controllers\potong\Rcnproduksi.php(221): view('potong/rcnproduksi/rencana', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Carircn()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 14:04:24 --> Undefined variable $spp
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 249.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 14:04:46 --> Undefined variable $spp
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 249.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 14:04:48 --> Undefined variable $spp
+in APPPATH\Controllers\potong\Rcnproduksi.php on line 249.
+ 1 APPPATH\Controllers\potong\Rcnproduksi.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spp', 'APPPATH\\Controllers\\potong\\Rcnproduksi.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\potong\Rcnproduksi->Datatablesrcn()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\potong\Rcnproduksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
